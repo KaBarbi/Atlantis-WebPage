@@ -1,5 +1,10 @@
+import { Menu } from "../components/Menu";
+
+
 const Cardapio: React.FC = () => {
   return (
+    <>
+          <Menu />
     <section className="flex flex-col max-w-full mx-auto">
       {[1, 2, 3, 4, 5, 6].map((num) => {
         const fileName = `Imagem ${num} do cardápio.png`;
@@ -18,6 +23,7 @@ const Cardapio: React.FC = () => {
         );
       })}
     </section>
+    </>
   );
 };
 
