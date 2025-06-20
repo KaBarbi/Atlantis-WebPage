@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#0b2438] text-white px-8 py-12">
+    <footer className="bg-[#0b2438] text-white px-8 py-5">
       <div className="max-w-[1200px] mx-auto flex flex-wrap gap-10 justify-center">
         {/* Mapa */}
         <div className="flex-grow basis-[25%] max-w-[500px]">
@@ -16,7 +16,7 @@ export default function Footer() {
         {/* Informações */}
         <div className="flex flex-col gap-5 justify-center">
           <div className="info">
-            <h3 className="font-gruppo text-xl mb-1">ENDEREÇO</h3>
+            <h3 className="font-gruppo font-semibold text-xl mb-1">ENDEREÇO</h3>
             <p className="font-montserrat">
               Av. Dr. Augusto de Toledo, 1238 - Santa Paula
             </p>
@@ -25,7 +25,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="info">
-            <h3 className="font-gruppo text-xl mb-1">ENTRE EM CONTATO</h3>
+            <h3 className="font-gruppo font-semibold text-xl mb-1">ENTRE EM CONTATO</h3>
             <p className="font-montserrat">+55 (11) 4226-2746</p>
           </div>
 

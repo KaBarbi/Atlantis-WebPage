@@ -21,7 +21,7 @@ export const Carousel: React.FC = () => {
 
   return (
     <section
-      className="w-full h-[300px] flex items-center justify-center gap-20 overflow-hidden max-md:flex-col max-md:h-auto max-md:gap-5 bg-center bg-cover bg-no-repeat"
+      className="w-full h-[300px] flex items-center justify-center gap-20 mb-10 overflow-hidden max-md:flex-col max-md:h-auto max-md:gap-5 bg-center bg-cover bg-no-repeat"
     >
       {/* Imagens Lado Esquerdo */}
       <div className="flex flex-row gap-5 max-md:flex-col max-md:items-center">
